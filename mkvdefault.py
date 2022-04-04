@@ -4,7 +4,6 @@ import sys
 import enzyme
 import os
 
-#logging.basicConfig(level=logging.DEBUG)
 alltracks = []
 paths = sys.argv[1:]
 paths.sort()
