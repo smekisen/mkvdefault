@@ -1,6 +1,6 @@
 # mkvdefault
 
-change default sub and audio track for multiple mkv files at the same time
+script to change default sub and audio track for multiple mkv files at the same time
 
 very jank very scuffed 
 
