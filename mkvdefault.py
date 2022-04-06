@@ -3,16 +3,7 @@ import subprocess
 import sys
 import os
 import json
-
-
-paths = sys.argv[1:]
-paths.sort()
-loop = True
-while(loop):
-    alltracks = []
-    first = True
-    print(os.path.basename(paths[0]))
-    def load_json(file):
+def load_json(file):
         mkvmerge_json_out = subprocess.check_output([
             'mkvmerge',
             '--identify',
@@ -22,6 +13,15 @@ while(loop):
             ], stderr=subprocess.DEVNULL)
         json_data = json.loads(mkvmerge_json_out)
         return json_data
+
+paths = sys.argv[1:]
+paths.sort()
+loop = True
+while(loop):
+    alltracks = []
+    first = True
+    print(os.path.basename(paths[0]))
+    
         
         
     for path in paths:
