@@ -1,6 +1,6 @@
 # mkvdefault
 
-script to change default sub and audio track for multiple mkv files at the same time
+python script to change default sub and audio track for multiple mkv files at the same time
 
 very jank very scuffed 
 
