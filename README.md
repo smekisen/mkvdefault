@@ -1,9 +1,7 @@
 # mkvdefault
 
-script to change default sub and audio track for multiple mkv files at the same time
+python script to change default sub and audio track for multiple mkv files at the same time
 
 very jank very scuffed 
 
-https://github.com/aulemahal/enzyme/tree/fixDefaults need this package branch
-
-will work with the standard enzyme aswell but English will show up as undefined
+just drag in the files on the script and follow the instructions :)
